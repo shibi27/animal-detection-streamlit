@@ -104,15 +104,3 @@ After uploading an image, the app displays:
 * 📊 **Activity Level Chart**
 
 ---
-
-## 🧑‍💻 Author
-
-**Shibi P**
-B.Tech Artificial Intelligence and Data Science
-Sairam Institute of Technology, Chennai
-
----
-
-## 🪶 License
-
-This project is open-source and available under the **MIT License**.
