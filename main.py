@@ -1,14 +1,10 @@
 import streamlit as st
 import google.generativeai as genai
 from PIL import Image
-from dotenv import load_dotenv
 import matplotlib.pyplot as plt
 import os
 
-# Load environment variables
-load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=api_key)
+genai.configure(api_key="")
 
 st.set_page_config(page_title="Animal Behavior Analyzer", layout="centered")
 st.title("🐾 Animal Detection & Behavior Analysis")
@@ -88,3 +84,4 @@ if uploaded_file:
         st.markdown(f"🟢 **Activity Status:** `{activity_level}`")
     else:
         st.warning("⚠️ Activity level could not be determined from the behavior description.")
+
