@@ -4,7 +4,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import os
 
-genai.configure(api_key="")
+genai.configure(api_key="AIzaSyBi9xXWb0pHpHtJ-JXoWho_uAtww2zzJIs")
 
 st.set_page_config(page_title="Animal Behavior Analyzer", layout="centered")
 st.title("🐾 Animal Detection & Behavior Analysis")
@@ -84,4 +84,5 @@ if uploaded_file:
         st.markdown(f"🟢 **Activity Status:** `{activity_level}`")
     else:
         st.warning("⚠️ Activity level could not be determined from the behavior description.")
+
 
