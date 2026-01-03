@@ -33,7 +33,7 @@ if uploaded_file:
 
     st.info("🔍 Analyzing the image using Gemini...")
 
-    model = genai.GenerativeModel("gemini-1.5-pro")
+    model = genai.GenerativeModel("models/gemini-2.5-flash")
     prompt = """
     You are a wildlife expert.
     Analyze this image in the following format:
