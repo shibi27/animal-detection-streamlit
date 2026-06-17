@@ -4,7 +4,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import os
 
-genai.configure(api_key="AIzaSyBi9xXWb0pHpHtJ-JXoWho_uAtww2zzJIs")
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 st.set_page_config(page_title="Animal Behavior Analyzer", layout="centered")
 st.title("🐾 Animal Detection & Behavior Analysis")
